@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "item": "{{#levelRepeat}}  {{/levelRepeat}}* [{{{title}}}]({{{link}}})\n",
+    "category": "{{#levelRepeat}}  {{/levelRepeat}}* {{#link}}[{{{title}}}]({{{link}}}){{/link}}{{^link}}{{{title}}}{{/link}}\n{{{subitems}}}",
+    "category-1": "[![npm module\\](https://rawgit.com/wiki/adriantanasa/github-wiki-sidebar/images/github-wiki-sidebar.svg)](https://www.npmjs.com/package/github-wiki-sidebar)\n\n{{{subitems}}}\n"
+  },
+  "rules": {
+    "exclude": [],
+    "order": [
+      "Home.md",
+      "Database-List.md",
+      "functions.py-Functions.md",
+      "geoIPmain.py-Functions.md",
+      "jails.py-Functions.md",
+      "psuFunctions.py-Functions.md",
+      "Python-Overview.md",
+      "testing.py-Functions.md"
+    ]
+  },
+  "separator": ":",
+  "linkTemplate": "./%s",
+  "menuFile": "_Sidebar.md",
+  "multilang": false,
+  "menuOnly": true
+}
