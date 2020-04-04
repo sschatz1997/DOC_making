@@ -1,0 +1,11 @@
+28:        if code[0:5] == "=SID!": D
+36:        elif code == "ALLIPS": D
+40:        elif code == "UP": D
+46:        elif code == "ALLSID": D
+54:        elif code[0:7] == "=SIDIP!": D
+66:        elif code[0:7] == "==AddS!": D
+80:        elif code[0:8] == "==AddUP!": D
+89:        elif code[0:9] == "==AddSID!": D
+96:        elif code[0:5] == "==SS!": 
+105:        elif code[0:5] == "==GS!":
+111:        elif code == "GAS":
